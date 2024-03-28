@@ -1,0 +1,454 @@
+[0.000000] (-) TimerEvent: {}
+[0.000370] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.000500] (led_control) JobQueued: {'identifier': 'led_control', 'dependencies': OrderedDict()}
+[0.000616] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.044723] (led_control) JobStarted: {'identifier': 'led_control'}
+[0.100413] (-) TimerEvent: {}
+[0.103062] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.103429] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/jan/dev/ros2_home_auto/src/custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/jan/dev/ros2_home_auto/install/custom_interfaces'], 'cwd': '/home/jan/dev/ros2_home_auto/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jan'), ('LC_TIME', 'en_IE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jan'), ('OLDPWD', '/home/jan/dev/ros2_home_auto/build'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '2006'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/jan/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jan-MS-7A20:@/tmp/.ICE-unix/1740,unix/jan-MS-7A20:/tmp/.ICE-unix/1740'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9a50cbb4_555c_46c2_903d_090aad0d6c9d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jan/dev/ros2_home_auto/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.154808] (custom_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.200567] (-) TimerEvent: {}
+[0.203666] (custom_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.209357] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.262798] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.269208] (custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.269427] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.269752] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.272212] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300649] (-) TimerEvent: {}
+[0.338934] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.348856] (custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.349227] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.349730] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.372524] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400731] (-) TimerEvent: {}
+[0.500982] (-) TimerEvent: {}
+[0.575925] (custom_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.601072] (-) TimerEvent: {}
+[0.649821] (led_control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/led_control', 'build', '--build-base', '/home/jan/dev/ros2_home_auto/build/led_control/build', 'install', '--record', '/home/jan/dev/ros2_home_auto/build/led_control/install.log', '--single-version-externally-managed'], 'cwd': '/home/jan/dev/ros2_home_auto/src/led_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jan', 'LC_TIME': 'en_IE.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jan', 'OLDPWD': '/home/jan/dev/ros2_home_auto/build', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '2006', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'jan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/jan/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/jan-MS-7A20:@/tmp/.ICE-unix/1740,unix/jan-MS-7A20:/tmp/.ICE-unix/1740', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9a50cbb4_555c_46c2_903d_090aad0d6c9d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.90', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jan/dev/ros2_home_auto/build/led_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jan/dev/ros2_home_auto/build/led_control/prefix_override:/home/jan/dev/ros2_home_auto/install/led_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.701185] (-) TimerEvent: {}
+[0.801542] (-) TimerEvent: {}
+[0.859831] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.864148] (led_control) StdoutLine: {'line': b'running egg_info\n'}
+[0.864648] (led_control) StdoutLine: {'line': b'writing ../../build/led_control/led_control.egg-info/PKG-INFO\n'}
+[0.877038] (led_control) StdoutLine: {'line': b'writing dependency_links to ../../build/led_control/led_control.egg-info/dependency_links.txt\n'}
+[0.877164] (led_control) StdoutLine: {'line': b'writing entry points to ../../build/led_control/led_control.egg-info/entry_points.txt\n'}
+[0.877269] (led_control) StdoutLine: {'line': b'writing requirements to ../../build/led_control/led_control.egg-info/requires.txt\n'}
+[0.877358] (led_control) StdoutLine: {'line': b'writing top-level names to ../../build/led_control/led_control.egg-info/top_level.txt\n'}
+[0.879348] (led_control) StdoutLine: {'line': b"reading manifest file '../../build/led_control/led_control.egg-info/SOURCES.txt'\n"}
+[0.883298] (led_control) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.883843] (led_control) StdoutLine: {'line': b"writing manifest file '../../build/led_control/led_control.egg-info/SOURCES.txt'\n"}
+[0.883934] (led_control) StdoutLine: {'line': b'running build\n'}
+[0.884024] (led_control) StdoutLine: {'line': b'running build_py\n'}
+[0.885742] (led_control) StdoutLine: {'line': b'running install\n'}
+[0.900306] (led_control) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.900407] (led_control) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.900504] (led_control) StdoutLine: {'line': b'running install_lib\n'}
+[0.901622] (-) TimerEvent: {}
+[0.902714] (led_control) StdoutLine: {'line': b'running install_data\n'}
+[0.918905] (led_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.920252] (led_control) StdoutLine: {'line': b"removing '/home/jan/dev/ros2_home_auto/install/led_control/lib/python3.10/site-packages/led_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.920495] (led_control) StdoutLine: {'line': b'Copying ../../build/led_control/led_control.egg-info to /home/jan/dev/ros2_home_auto/install/led_control/lib/python3.10/site-packages/led_control-0.0.0-py3.10.egg-info\n'}
+[0.944494] (led_control) StdoutLine: {'line': b'running install_scripts\n'}
+[0.961030] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.961623] (led_control) StdoutLine: {'line': b'Installing led_control_server script to /home/jan/dev/ros2_home_auto/install/led_control/lib/led_control\n'}
+[0.962082] (led_control) StdoutLine: {'line': b"writing list of installed files to '/home/jan/dev/ros2_home_auto/build/led_control/install.log'\n"}
+[0.979370] (led_control) CommandEnded: {'returncode': 0}
+[1.000115] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.001772] (-) TimerEvent: {}
+[1.102343] (-) TimerEvent: {}
+[1.102758] (led_control) JobEnded: {'identifier': 'led_control', 'rc': 0}
+[1.165840] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.202426] (-) TimerEvent: {}
+[1.302706] (-) TimerEvent: {}
+[1.403033] (-) TimerEvent: {}
+[1.503340] (-) TimerEvent: {}
+[1.603613] (-) TimerEvent: {}
+[1.689070] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.703692] (-) TimerEvent: {}
+[1.803975] (-) TimerEvent: {}
+[1.892930] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.904069] (-) TimerEvent: {}
+[2.004357] (-) TimerEvent: {}
+[2.104648] (-) TimerEvent: {}
+[2.204938] (-) TimerEvent: {}
+[2.229477] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.256754] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.274245] (custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.305015] (-) TimerEvent: {}
+[2.359049] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.359345] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.359526] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.359690] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.380951] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.405112] (-) TimerEvent: {}
+[2.475555] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.505197] (-) TimerEvent: {}
+[2.532277] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.542360] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.545126] (custom_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.605283] (-) TimerEvent: {}
+[2.612946] (custom_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.614951] (custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/jan/dev/ros2_home_auto/build/custom_interfaces\n'}
+[2.620481] (custom_interfaces) CommandEnded: {'returncode': 0}
+[2.621123] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[2.622082] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jan/dev/ros2_home_auto/build/custom_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/jan/dev/ros2_home_auto/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jan'), ('LC_TIME', 'en_IE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jan'), ('OLDPWD', '/home/jan/dev/ros2_home_auto/build'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '2006'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/jan/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jan-MS-7A20:@/tmp/.ICE-unix/1740,unix/jan-MS-7A20:/tmp/.ICE-unix/1740'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9a50cbb4_555c_46c2_903d_090aad0d6c9d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jan/dev/ros2_home_auto/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.667232] (custom_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.674940] (custom_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.682040] (custom_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_custom_interfaces\n'}
+[2.705380] (-) TimerEvent: {}
+[2.805646] (-) TimerEvent: {}
+[2.886246] (custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.886660] (custom_interfaces) StdoutLine: {'line': b'creating custom_interfaces.egg-info\n'}
+[2.886788] (custom_interfaces) StdoutLine: {'line': b'writing custom_interfaces.egg-info/PKG-INFO\n'}
+[2.886942] (custom_interfaces) StdoutLine: {'line': b'writing dependency_links to custom_interfaces.egg-info/dependency_links.txt\n'}
+[2.887063] (custom_interfaces) StdoutLine: {'line': b'writing top-level names to custom_interfaces.egg-info/top_level.txt\n'}
+[2.887213] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[2.888647] (custom_interfaces) StdoutLine: {'line': b"reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[2.889071] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[2.905718] (-) TimerEvent: {}
+[2.909264] (custom_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_custom_interfaces_egg\n'}
+[3.005803] (-) TimerEvent: {}
+[3.106024] (-) TimerEvent: {}
+[3.206233] (-) TimerEvent: {}
+[3.306451] (-) TimerEvent: {}
+[3.309109] (custom_interfaces) StdoutLine: {'line': b'[  3%] Built target custom_interfaces__cpp\n'}
+[3.319915] (custom_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.320178] (custom_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.320690] (custom_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.349823] (custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/color__functions.c.o\x1b[0m\n'}
+[3.350038] (custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/color_array__functions.c.o\x1b[0m\n'}
+[3.351845] (custom_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/set_colors__functions.c.o\x1b[0m\n'}
+[3.353496] (custom_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/action/detail/set_color_action__functions.c.o\x1b[0m\n'}
+[3.406535] (-) TimerEvent: {}
+[3.506747] (-) TimerEvent: {}
+[3.606964] (-) TimerEvent: {}
+[3.667462] (custom_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/set_colors__type_support.cpp.o\x1b[0m\n'}
+[3.667679] (custom_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/color__type_support.cpp.o\x1b[0m\n'}
+[3.667802] (custom_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/action/set_color_action__type_support.cpp.o\x1b[0m\n'}
+[3.669345] (custom_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/color_array__type_support.cpp.o\x1b[0m\n'}
+[3.675024] (custom_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.707033] (-) TimerEvent: {}
+[3.732030] (custom_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/color__type_support.cpp.o\x1b[0m\n'}
+[3.732229] (custom_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/set_colors__type_support.cpp.o\x1b[0m\n'}
+[3.732332] (custom_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/color_array__type_support.cpp.o\x1b[0m\n'}
+[3.732428] (custom_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/action/detail/set_color_action__type_support.cpp.o\x1b[0m\n'}
+[3.763335] (custom_interfaces) StdoutLine: {'line': b'[ 32%] Built target custom_interfaces__rosidl_generator_c\n'}
+[3.771413] (custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.771577] (custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.771644] (custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.807128] (-) TimerEvent: {}
+[3.841095] (custom_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/color__type_support.cpp.o\x1b[0m\n'}
+[3.907222] (-) TimerEvent: {}
+[4.007487] (-) TimerEvent: {}
+[4.107749] (-) TimerEvent: {}
+[4.139359] (custom_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/color__type_support.cpp.o\x1b[0m\n'}
+[4.207832] (-) TimerEvent: {}
+[4.285733] (custom_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/color__type_support.c.o\x1b[0m\n'}
+[4.307924] (-) TimerEvent: {}
+[4.311558] (custom_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/color__type_support_c.cpp.o\x1b[0m\n'}
+[4.322342] (custom_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/color_array__type_support.cpp.o\x1b[0m\n'}
+[4.326626] (custom_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/color_array__type_support.c.o\x1b[0m\n'}
+[4.346637] (custom_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/set_colors__type_support.cpp.o\x1b[0m\n'}
+[4.384541] (custom_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/action/set_color_action__type_support.cpp.o\x1b[0m\n'}
+[4.399027] (custom_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/set_colors__type_support.c.o\x1b[0m\n'}
+[4.408035] (-) TimerEvent: {}
+[4.452269] (custom_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/action/detail/set_color_action__type_support.c.o\x1b[0m\n'}
+[4.484418] (custom_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.508139] (-) TimerEvent: {}
+[4.523736] (custom_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/color_array__type_support.cpp.o\x1b[0m\n'}
+[4.523945] (custom_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/set_colors__type_support.cpp.o\x1b[0m\n'}
+[4.524045] (custom_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.536866] (custom_interfaces) StdoutLine: {'line': b'[ 63%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[4.545728] (custom_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/action/detail/dds_fastrtps/set_color_action__type_support.cpp.o\x1b[0m\n'}
+[4.551314] (custom_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/color_array__type_support_c.cpp.o\x1b[0m\n'}
+[4.570497] (custom_interfaces) StdoutLine: {'line': b'[ 67%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.581628] (custom_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/set_colors__type_support_c.cpp.o\x1b[0m\n'}
+[4.608243] (-) TimerEvent: {}
+[4.708603] (-) TimerEvent: {}
+[4.732172] (custom_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/action/detail/set_color_action__type_support_c.cpp.o\x1b[0m\n'}
+[4.808711] (-) TimerEvent: {}
+[4.883834] (custom_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.908812] (-) TimerEvent: {}
+[4.933276] (custom_interfaces) StdoutLine: {'line': b'[ 72%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[5.008928] (-) TimerEvent: {}
+[5.109240] (-) TimerEvent: {}
+[5.131846] (custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.156878] (custom_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.209332] (-) TimerEvent: {}
+[5.211966] (custom_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.213110] (custom_interfaces) StdoutLine: {'line': b'[ 78%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.223160] (custom_interfaces) StdoutLine: {'line': b'[ 78%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[5.273179] (custom_interfaces) StdoutLine: {'line': b'[ 78%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.287191] (custom_interfaces) StdoutLine: {'line': b'[ 78%] Built target custom_interfaces\n'}
+[5.302756] (custom_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.309401] (-) TimerEvent: {}
+[5.409601] (-) TimerEvent: {}
+[5.509827] (-) TimerEvent: {}
+[5.610082] (-) TimerEvent: {}
+[5.710330] (-) TimerEvent: {}
+[5.810565] (-) TimerEvent: {}
+[5.910809] (-) TimerEvent: {}
+[6.011109] (-) TimerEvent: {}
+[6.111347] (-) TimerEvent: {}
+[6.211617] (-) TimerEvent: {}
+[6.231562] (custom_interfaces) StdoutLine: {'line': b'[ 80%] Built target custom_interfaces__py\n'}
+[6.250131] (custom_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/srv/_set_colors_s.c.o\x1b[0m\n'}
+[6.250330] (custom_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/action/_set_color_action_s.c.o\x1b[0m\n'}
+[6.250446] (custom_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_color_array_s.c.o\x1b[0m\n'}
+[6.250669] (custom_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_color_s.c.o\x1b[0m\n'}
+[6.311717] (-) TimerEvent: {}
+[6.412029] (-) TimerEvent: {}
+[6.512272] (-) TimerEvent: {}
+[6.612603] (-) TimerEvent: {}
+[6.704360] (custom_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[6.712670] (-) TimerEvent: {}
+[6.771617] (custom_interfaces) StdoutLine: {'line': b'[ 89%] Built target custom_interfaces__rosidl_generator_py\n'}
+[6.787844] (custom_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.788104] (custom_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.789463] (custom_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.812782] (-) TimerEvent: {}
+[6.904852] (custom_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.907217] (custom_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.912858] (-) TimerEvent: {}
+[6.918403] (custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.942185] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[6.945203] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.951484] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[6.959866] (custom_interfaces) CommandEnded: {'returncode': 0}
+[7.012948] (-) TimerEvent: {}
+[7.038875] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[7.045579] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jan/dev/ros2_home_auto/build/custom_interfaces'], 'cwd': '/home/jan/dev/ros2_home_auto/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jan'), ('LC_TIME', 'en_IE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jan'), ('OLDPWD', '/home/jan/dev/ros2_home_auto/build'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '2006'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/jan/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jan-MS-7A20:@/tmp/.ICE-unix/1740,unix/jan-MS-7A20:/tmp/.ICE-unix/1740'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9a50cbb4_555c_46c2_903d_090aad0d6c9d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jan/dev/ros2_home_auto/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.052224] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.058727] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[7.064501] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[7.068220] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[7.068642] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/color_array.h\n'}
+[7.068750] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[7.069121] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__type_support.h\n'}
+[7.069223] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__type_support.h\n'}
+[7.069333] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__functions.h\n'}
+[7.069456] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__functions.c\n'}
+[7.069538] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__functions.c\n'}
+[7.069624] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__struct.h\n'}
+[7.069718] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__struct.h\n'}
+[7.069815] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__functions.h\n'}
+[7.069913] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/color.h\n'}
+[7.070006] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.070097] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[7.076774] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[7.077144] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/set_color_action__type_support.h\n'}
+[7.077254] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/set_color_action__functions.c\n'}
+[7.077413] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/set_color_action__functions.h\n'}
+[7.077567] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/set_color_action__struct.h\n'}
+[7.077664] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/set_color_action.h\n'}
+[7.077754] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[7.078036] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/set_colors.h\n'}
+[7.078131] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[7.078498] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_colors__type_support.h\n'}
+[7.078599] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_colors__functions.h\n'}
+[7.078708] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_colors__struct.h\n'}
+[7.078802] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_colors__functions.c\n'}
+[7.078942] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[7.079030] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[7.085979] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[7.086431] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""\n'}
+[7.086511] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[7.086607] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[7.086666] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[7.086740] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__rosidl_typesupport_fastrtps_c.h\n'}
+[7.086814] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[7.086887] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.086971] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[7.087078] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[7.087154] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/set_color_action__rosidl_typesupport_fastrtps_c.h\n'}
+[7.087212] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[7.087274] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[7.087331] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_colors__rosidl_typesupport_fastrtps_c.h\n'}
+[7.098068] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.098424] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.098495] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[7.098575] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[7.098647] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.098723] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[7.098799] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[7.098857] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__rosidl_typesupport_introspection_c.h\n'}
+[7.098930] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__type_support.c\n'}
+[7.099020] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__type_support.c\n'}
+[7.099153] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[7.099237] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[7.099294] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/set_color_action__type_support.c\n'}
+[7.099371] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/set_color_action__rosidl_typesupport_introspection_c.h\n'}
+[7.099448] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[7.099529] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[7.099596] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_colors__type_support.c\n'}
+[7.099671] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_colors__rosidl_typesupport_introspection_c.h\n'}
+[7.100507] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.100842] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.101159] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[7.101477] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[7.101594] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[7.101668] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[7.101774] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/color.hpp\n'}
+[7.101870] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[7.101960] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__traits.hpp\n'}
+[7.102049] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__builder.hpp\n'}
+[7.102139] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__traits.hpp\n'}
+[7.102229] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__struct.hpp\n'}
+[7.102325] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__builder.hpp\n'}
+[7.102417] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__struct.hpp\n'}
+[7.102506] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/color_array.hpp\n'}
+[7.102601] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[7.102690] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/set_color_action.hpp\n'}
+[7.102762] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[7.102851] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/set_color_action__struct.hpp\n'}
+[7.102968] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/set_color_action__builder.hpp\n'}
+[7.103073] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/set_color_action__traits.hpp\n'}
+[7.103159] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[7.103233] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[7.103321] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_colors__struct.hpp\n'}
+[7.103438] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_colors__traits.hpp\n'}
+[7.103511] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_colors__builder.hpp\n'}
+[7.103615] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/set_colors.hpp\n'}
+[7.103712] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[7.103826] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[7.103915] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.104019] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[7.104106] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.104195] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.104273] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/dds_fastrtps\n'}
+[7.104343] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[7.104419] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[7.104491] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/set_color_action__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.104562] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/dds_fastrtps\n'}
+[7.104632] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[7.104702] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[7.104772] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_colors__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.104842] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps\n'}
+[7.113006] (-) TimerEvent: {}
+[7.114549] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.114949] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.115097] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[7.115240] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[7.115324] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[7.115405] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.115526] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__type_support.cpp\n'}
+[7.115669] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.115752] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__type_support.cpp\n'}
+[7.115829] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action\n'}
+[7.115905] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail\n'}
+[7.116026] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/set_color_action__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.116105] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/action/detail/set_color_action__type_support.cpp\n'}
+[7.116244] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[7.116331] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[7.116403] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_colors__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.116475] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/set_colors__type_support.cpp\n'}
+[7.124986] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.125395] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.127043] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[7.127471] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[7.127595] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[7.127716] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[7.128648] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info\n'}
+[7.128859] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.128969] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.129084] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.129203] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.129323] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces\n'}
+[7.129494] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[7.129651] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg\n'}
+[7.129858] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_color.py\n'}
+[7.129977] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py\n'}
+[7.130095] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_color_s.c\n'}
+[7.130217] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_color_array.py\n'}
+[7.130337] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_color_array_s.c\n'}
+[7.130460] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action\n'}
+[7.131096] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_set_color_action.py\n'}
+[7.131240] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/__init__.py\n'}
+[7.131357] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_set_color_action_s.c\n'}
+[7.131463] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.131619] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py\n'}
+[7.131726] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\n'}
+[7.131847] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.131983] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv\n'}
+[7.132217] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py\n'}
+[7.132340] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_set_colors_s.c\n'}
+[7.132440] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_set_colors.py\n'}
+[7.132541] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.132658] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.132812] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.199403] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...\n"}
+[7.199615] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...\n"}
+[7.199772] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action'...\n"}
+[7.199927] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/__init__.py'...\n"}
+[7.200082] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/action/_set_color_action.py'...\n"}
+[7.200237] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg'...\n"}
+[7.200394] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py'...\n"}
+[7.200548] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_color.py'...\n"}
+[7.200701] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_color_array.py'...\n"}
+[7.200856] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...\n"}
+[7.201009] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py'...\n"}
+[7.201165] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_set_colors.py'...\n"}
+[7.203452] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.204405] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.204912] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.205818] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.206319] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.207239] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.208880] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so\n'}
+[7.209911] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""\n'}
+[7.210120] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/msg/Color.idl\n'}
+[7.210417] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/msg/ColorArray.idl\n'}
+[7.210765] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/srv/SetColors.idl\n'}
+[7.211131] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/action/SetColorAction.idl\n'}
+[7.211471] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/msg/Color.msg\n'}
+[7.211671] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/msg/ColorArray.msg\n'}
+[7.211871] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/srv/SetColors.srv\n'}
+[7.212081] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/srv/SetColors_Request.msg\n'}
+[7.212385] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/srv/SetColors_Response.msg\n'}
+[7.212723] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/action/SetColorAction.action\n'}
+[7.213056] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[7.213220] (-) TimerEvent: {}
+[7.213621] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[7.213971] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[7.214187] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[7.214442] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[7.214647] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[7.214878] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[7.215232] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[7.215572] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[7.215894] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[7.216213] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[7.216780] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[7.217500] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[7.217896] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.219648] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.220048] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.220726] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.221100] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.221765] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.222127] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.222762] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[7.223436] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.223799] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.224512] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.224892] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.225553] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.225916] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.226565] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[7.226930] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.227325] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.227667] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.228036] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.228392] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.228763] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.229105] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.229446] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.229788] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[7.230068] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[7.230386] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[7.233746] (custom_interfaces) CommandEnded: {'returncode': 0}
+[7.313322] (-) TimerEvent: {}
+[7.413656] (-) TimerEvent: {}
+[7.487985] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[7.488619] (-) EventReactorShutdown: {}

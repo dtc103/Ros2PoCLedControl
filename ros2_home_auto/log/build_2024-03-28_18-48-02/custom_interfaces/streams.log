@@ -1,0 +1,31 @@
+[0.107s] Invoking command in '/home/jan/dev/ros2_home_auto/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jan/dev/ros2_home_auto/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/jan/dev/ros2_home_auto/install/custom_interfaces
+[0.119s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.230s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.244s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.247s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.252s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.300s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.718s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.881s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.098s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.119s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.140s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.140s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.140s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.161s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.172s] -- Added test 'lint_cmake' to check CMake code style
+[1.174s] -- Added test 'xmllint' to check XML markup files
+[1.177s] -- Configuring done
+[1.214s] -- Generating done
+[1.217s] -- Build files have been written to: /home/jan/dev/ros2_home_auto/build/custom_interfaces
+[1.223s] Invoked command in '/home/jan/dev/ros2_home_auto/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jan/dev/ros2_home_auto/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/jan/dev/ros2_home_auto/install/custom_interfaces
+[1.226s] Invoking command in '/home/jan/dev/ros2_home_auto/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jan/dev/ros2_home_auto/build/custom_interfaces -- -j12 -l12
+[1.264s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_c[0m
+[1.270s] failed to create symbolic link '/home/jan/dev/ros2_home_auto/build/custom_interfaces/ament_cmake_python/custom_interfaces/custom_interfaces' because existing path cannot be removed: Is a directory
+[1.271s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_custom_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_custom_interfaces] Error 1
+[1.271s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_custom_interfaces.dir/all] Error 2
+[1.271s] gmake[1]: *** Waiting for unfinished jobs....
+[1.271s] [  1%] Built target custom_interfaces__cpp
+[1.272s] [ 12%] Built target custom_interfaces__rosidl_generator_c
+[1.273s] gmake: *** [Makefile:146: all] Error 2
+[1.275s] Invoked command in '/home/jan/dev/ros2_home_auto/build/custom_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jan/dev/ros2_home_auto/build/custom_interfaces -- -j12 -l12

@@ -1,0 +1,33 @@
+[0.023s] Invoking command in '/home/jan/dev/ros2_home_auto/build/custom_interfaces': /usr/bin/cmake /home/jan/dev/ros2_home_auto/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/jan/dev/ros2_home_auto/install/custom_interfaces
+[0.773s] -- The C compiler identification is GNU 11.4.0
+[1.190s] -- The CXX compiler identification is GNU 11.4.0
+[1.209s] -- Detecting C compiler ABI info
+[1.343s] -- Detecting C compiler ABI info - done
+[1.353s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.354s] -- Detecting C compile features
+[1.368s] -- Detecting C compile features - done
+[1.411s] -- Detecting CXX compiler ABI info
+[1.526s] -- Detecting CXX compiler ABI info - done
+[1.536s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.537s] -- Detecting CXX compile features
+[1.537s] -- Detecting CXX compile features - done
+[1.574s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[1.574s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.574s]   has asked CMake to find a package configuration file provided by
+[1.574s]   "ament_cmake", but CMake did not find one.
+[1.574s] 
+[1.574s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.574s]   any of the following names:
+[1.574s] 
+[1.574s]     ament_cmakeConfig.cmake
+[1.574s]     ament_cmake-config.cmake
+[1.574s] 
+[1.575s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.575s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.575s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.575s]   has been installed.
+[1.575s] 
+[1.575s] [0m
+[1.575s] -- Configuring incomplete, errors occurred!
+[1.575s] See also "/home/jan/dev/ros2_home_auto/build/custom_interfaces/CMakeFiles/CMakeOutput.log".
+[1.577s] Invoked command in '/home/jan/dev/ros2_home_auto/build/custom_interfaces' returned '1': /usr/bin/cmake /home/jan/dev/ros2_home_auto/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/jan/dev/ros2_home_auto/install/custom_interfaces

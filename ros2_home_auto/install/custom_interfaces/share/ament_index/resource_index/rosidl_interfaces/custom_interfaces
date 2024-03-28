@@ -1,0 +1,10 @@
+action/SetColorAction.action
+action/SetColorAction.idl
+msg/Color.idl
+msg/Color.msg
+msg/ColorArray.idl
+msg/ColorArray.msg
+srv/SetColors.idl
+srv/SetColors.srv
+srv/SetColors_Request.msg
+srv/SetColors_Response.msg

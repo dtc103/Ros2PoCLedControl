@@ -1,0 +1,244 @@
+[0.155s] Invoking command in '/home/jan/dev/ros2_home_auto/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jan/dev/ros2_home_auto/install/led_control:/opt/ros/humble /usr/bin/cmake --build /home/jan/dev/ros2_home_auto/build/custom_interfaces -- -j12 -l12
+[0.180s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.295s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.298s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.301s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.328s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.587s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.750s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.972s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.993s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.015s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.015s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.015s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.035s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.049s] -- Added test 'lint_cmake' to check CMake code style
+[1.051s] -- Added test 'xmllint' to check XML markup files
+[1.053s] -- Configuring done
+[1.104s] -- Generating done
+[1.107s] -- Build files have been written to: /home/jan/dev/ros2_home_auto/build/custom_interfaces
+[1.130s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.139s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.146s] [  5%] Built target ament_cmake_python_copy_custom_interfaces
+[1.370s] running egg_info
+[1.370s] writing custom_interfaces.egg-info/PKG-INFO
+[1.370s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[1.371s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[1.372s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[1.373s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[1.401s] [  5%] Built target ament_cmake_python_build_custom_interfaces_egg
+[1.414s] [  5%] Built target custom_interfaces__cpp
+[1.421s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.421s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_c[0m
+[1.421s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.422s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.431s] [ 17%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/color_array__functions.c.o[0m
+[1.432s] [ 17%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/color__functions.c.o[0m
+[1.470s] [ 20%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[1.499s] [ 20%] Built target custom_interfaces__rosidl_generator_c
+[1.507s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.507s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.507s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.647s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_cpp[0m
+[1.658s] [ 30%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/color__type_support.cpp.o[0m
+[1.661s] [ 33%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/color_array__type_support.cpp.o[0m
+[1.676s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.679s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.690s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/color_array__type_support.cpp.o[0m
+[1.692s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/color__type_support.cpp.o[0m
+[1.696s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/color__type_support.cpp.o[0m
+[1.696s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/color_array__type_support.cpp.o[0m
+[1.743s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c[0m
+[1.753s] [ 46%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/color__type_support.cpp.o[0m
+[1.756s] [ 48%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/color_array__type_support.cpp.o[0m
+[1.801s] [ 51%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[1.815s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.826s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c[0m
+[1.831s] [ 53%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/color__type_support_c.cpp.o[0m
+[1.836s] [ 56%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/color_array__type_support_c.cpp.o[0m
+[1.843s] [ 58%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/color_array__type_support.c.o[0m
+[1.846s] [ 61%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/color__type_support.c.o[0m
+[1.855s] [ 61%] Built target custom_interfaces__rosidl_typesupport_c
+[1.897s] [ 64%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.930s] [ 64%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[2.018s] [ 66%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[2.053s] [ 66%] Built target custom_interfaces__rosidl_typesupport_cpp
+[2.189s] [ 69%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.196s] [ 71%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.272s] [ 74%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.332s] [ 74%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[2.335s] [ 74%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.341s] [ 74%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[2.356s] [ 74%] Built target custom_interfaces
+[2.371s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.772s] [ 76%] Built target custom_interfaces__py
+[2.781s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_py[0m
+[2.793s] [ 79%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_color_array_s.c.o[0m
+[2.794s] [ 82%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_color_s.c.o[0m
+[2.882s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so[0m
+[2.913s] [ 84%] Built target custom_interfaces__rosidl_generator_py
+[2.921s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.921s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[2.922s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c__pyext[0m
+[2.932s] [ 89%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.932s] [ 89%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.933s] [ 92%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.012s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.012s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.013s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.039s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[3.040s] [100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.040s] [100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.048s] Invoked command in '/home/jan/dev/ros2_home_auto/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jan/dev/ros2_home_auto/install/led_control:/opt/ros/humble /usr/bin/cmake --build /home/jan/dev/ros2_home_auto/build/custom_interfaces -- -j12 -l12
+[3.112s] Invoking command in '/home/jan/dev/ros2_home_auto/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jan/dev/ros2_home_auto/install/led_control:/opt/ros/humble /usr/bin/cmake --install /home/jan/dev/ros2_home_auto/build/custom_interfaces
+[3.118s] -- Install configuration: ""
+[3.119s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[3.119s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[3.119s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[3.119s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/color_array.h
+[3.119s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[3.119s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__type_support.h
+[3.119s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__type_support.h
+[3.119s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__functions.h
+[3.119s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__functions.c
+[3.119s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__functions.c
+[3.119s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__struct.h
+[3.119s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__struct.h
+[3.119s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__functions.h
+[3.120s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/color.h
+[3.120s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.120s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[3.120s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[3.120s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[3.120s] -- Set runtime path of "/home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[3.121s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[3.121s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[3.121s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[3.121s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__rosidl_typesupport_fastrtps_c.h
+[3.121s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[3.121s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.121s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.121s] -- Set runtime path of "/home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.121s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[3.121s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[3.121s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.121s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[3.122s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__rosidl_typesupport_introspection_c.h
+[3.122s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__rosidl_typesupport_introspection_c.h
+[3.122s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__type_support.c
+[3.122s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__type_support.c
+[3.122s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[3.122s] -- Set runtime path of "/home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.122s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[3.123s] -- Set runtime path of "/home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[3.123s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[3.123s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[3.123s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/color.hpp
+[3.123s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[3.123s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__traits.hpp
+[3.123s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__builder.hpp
+[3.123s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__traits.hpp
+[3.123s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__struct.hpp
+[3.123s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__builder.hpp
+[3.123s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__struct.hpp
+[3.124s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/color_array.hpp
+[3.124s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[3.124s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[3.124s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.124s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[3.124s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__rosidl_typesupport_fastrtps_cpp.hpp
+[3.124s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[3.124s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/dds_fastrtps
+[3.124s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.124s] -- Set runtime path of "/home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.124s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[3.125s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[3.125s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[3.125s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__rosidl_typesupport_introspection_cpp.hpp
+[3.125s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color_array__type_support.cpp
+[3.125s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[3.125s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/color__type_support.cpp
+[3.125s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.125s] -- Set runtime path of "/home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.125s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[3.126s] -- Set runtime path of "/home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.126s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[3.126s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[3.126s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info
+[3.126s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.126s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.126s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.126s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.126s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces
+[3.127s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[3.127s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg
+[3.127s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_color.py
+[3.127s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py
+[3.127s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_color_s.c
+[3.127s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_color_array.py
+[3.127s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_color_array_s.c
+[3.127s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.127s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py
+[3.127s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so
+[3.127s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.128s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.128s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.128s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.157s] Listing '/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...
+[3.157s] Compiling '/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...
+[3.157s] Listing '/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg'...
+[3.157s] Compiling '/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py'...
+[3.157s] Compiling '/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_color.py'...
+[3.158s] Compiling '/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_color_array.py'...
+[3.161s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.161s] -- Set runtime path of "/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.161s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.162s] -- Set runtime path of "/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.162s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.162s] -- Set runtime path of "/home/jan/dev/ros2_home_auto/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.162s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[3.163s] -- Set runtime path of "/home/jan/dev/ros2_home_auto/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""
+[3.163s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/msg/Color.idl
+[3.163s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/msg/ColorArray.idl
+[3.163s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/msg/Color.msg
+[3.163s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/msg/ColorArray.msg
+[3.163s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[3.163s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[3.163s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[3.163s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[3.163s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[3.163s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[3.163s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[3.164s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[3.164s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[3.164s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[3.164s] -- Installing: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/package.dsv
+[3.164s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[3.164s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[3.164s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.164s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.164s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.164s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.164s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.164s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[3.165s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.165s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[3.165s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.165s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.165s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.165s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.165s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[3.165s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.165s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[3.165s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.165s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.165s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.165s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.165s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.165s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.166s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.166s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.166s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[3.166s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[3.166s] -- Up-to-date: /home/jan/dev/ros2_home_auto/install/custom_interfaces/share/custom_interfaces/package.xml
+[3.167s] Invoked command in '/home/jan/dev/ros2_home_auto/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jan/dev/ros2_home_auto/install/led_control:/opt/ros/humble /usr/bin/cmake --install /home/jan/dev/ros2_home_auto/build/custom_interfaces

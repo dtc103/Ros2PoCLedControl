@@ -1,0 +1,21 @@
+[0.664s] Invoking command in '/home/jan/dev/ros2_home_auto/build/led_control': PYTHONPATH=/home/jan/dev/ros2_home_auto/build/led_control/prefix_override:/home/jan/dev/ros2_home_auto/install/led_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jan/dev/ros2_home_auto/build/led_control/build --no-deps install_data
+[0.903s] running develop
+[0.903s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.903s]   warnings.warn(
+[0.904s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.904s]   warnings.warn(
+[1.052s] running egg_info
+[1.052s] writing led_control.egg-info/PKG-INFO
+[1.052s] writing dependency_links to led_control.egg-info/dependency_links.txt
+[1.052s] writing entry points to led_control.egg-info/entry_points.txt
+[1.052s] writing requirements to led_control.egg-info/requires.txt
+[1.052s] writing top-level names to led_control.egg-info/top_level.txt
+[1.054s] reading manifest file 'led_control.egg-info/SOURCES.txt'
+[1.054s] writing manifest file 'led_control.egg-info/SOURCES.txt'
+[1.055s] running build_ext
+[1.056s] Creating /home/jan/dev/ros2_home_auto/install/led_control/lib/python3.10/site-packages/led-control.egg-link (link to .)
+[1.056s] Installing led_control_server script to /home/jan/dev/ros2_home_auto/install/led_control/lib/led_control
+[1.057s] 
+[1.057s] Installed /home/jan/dev/ros2_home_auto/build/led_control
+[1.057s] running install_data
+[1.078s] Invoked command in '/home/jan/dev/ros2_home_auto/build/led_control' returned '0': PYTHONPATH=/home/jan/dev/ros2_home_auto/build/led_control/prefix_override:/home/jan/dev/ros2_home_auto/install/led_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jan/dev/ros2_home_auto/build/led_control/build --no-deps install_data

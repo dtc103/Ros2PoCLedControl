@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/jan/dev/ros2_home_auto/install/led_control/lib/python3.10/site-packages/led_control/led_control_server.py", line 23
+    msg.colours = [Color(155, 155, 155, 255), Color(14, 24, 190 255), Color(24, 240, 1 255), Color(98, 54, 199 255)]
+                                                            ^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

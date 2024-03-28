@@ -1,0 +1,5 @@
+Color[] colors
+---
+bool success
+---
+string status

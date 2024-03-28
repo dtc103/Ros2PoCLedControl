@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from custom_interfaces/action/SetColorAction.action
+// generated code does not contain a copyright notice
+
+#include "custom_interfaces/msg/Color.idl"
+
+module custom_interfaces {
+  module action {
+    struct SetColorAction_Goal {
+      sequence<custom_interfaces::msg::Color> colors;
+    };
+    struct SetColorAction_Result {
+      boolean success;
+    };
+    struct SetColorAction_Feedback {
+      string status;
+    };
+  };
+};

@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_interfaces/srv/SetColors.srv
+// generated code does not contain a copyright notice
+
+#include "custom_interfaces/msg/Color.idl"
+
+module custom_interfaces {
+  module srv {
+    struct SetColors_Request {
+      sequence<custom_interfaces::msg::Color> colors;
+    };
+    struct SetColors_Response {
+      boolean success;
+    };
+  };
+};

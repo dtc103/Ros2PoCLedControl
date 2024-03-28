@@ -1,0 +1,2 @@
+Invoking command in '/home/jan/dev/ros2_home_auto/build/custom_interfaces': /usr/bin/cmake /home/jan/dev/ros2_home_auto/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/jan/dev/ros2_home_auto/install/custom_interfaces
+Invoked command in '/home/jan/dev/ros2_home_auto/build/custom_interfaces' returned '1': /usr/bin/cmake /home/jan/dev/ros2_home_auto/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/jan/dev/ros2_home_auto/install/custom_interfaces

@@ -1,0 +1,27 @@
+[0.630s] Invoking command in '/home/jan/dev/ros2_home_auto/src/led_control': PYTHONPATH=/home/jan/dev/ros2_home_auto/build/led_control/prefix_override:/home/jan/dev/ros2_home_auto/install/led_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/led_control build --build-base /home/jan/dev/ros2_home_auto/build/led_control/build install --record /home/jan/dev/ros2_home_auto/build/led_control/install.log --single-version-externally-managed
+[0.845s] running egg_info
+[0.845s] writing ../../build/led_control/led_control.egg-info/PKG-INFO
+[0.845s] writing dependency_links to ../../build/led_control/led_control.egg-info/dependency_links.txt
+[0.846s] writing entry points to ../../build/led_control/led_control.egg-info/entry_points.txt
+[0.846s] writing requirements to ../../build/led_control/led_control.egg-info/requires.txt
+[0.846s] writing top-level names to ../../build/led_control/led_control.egg-info/top_level.txt
+[0.847s] reading manifest file '../../build/led_control/led_control.egg-info/SOURCES.txt'
+[0.847s] adding license file 'LICENSE'
+[0.848s] writing manifest file '../../build/led_control/led_control.egg-info/SOURCES.txt'
+[0.848s] running build
+[0.848s] running build_py
+[0.848s] copying led_control/other_file.py -> /home/jan/dev/ros2_home_auto/build/led_control/build/lib/led_control
+[0.849s] running install
+[0.849s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.849s]   warnings.warn(
+[0.849s] running install_lib
+[0.849s] copying /home/jan/dev/ros2_home_auto/build/led_control/build/lib/led_control/other_file.py -> /home/jan/dev/ros2_home_auto/install/led_control/lib/python3.10/site-packages/led_control
+[0.849s] byte-compiling /home/jan/dev/ros2_home_auto/install/led_control/lib/python3.10/site-packages/led_control/other_file.py to other_file.cpython-310.pyc
+[0.850s] running install_data
+[0.850s] running install_egg_info
+[0.851s] removing '/home/jan/dev/ros2_home_auto/install/led_control/lib/python3.10/site-packages/led_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.852s] Copying ../../build/led_control/led_control.egg-info to /home/jan/dev/ros2_home_auto/install/led_control/lib/python3.10/site-packages/led_control-0.0.0-py3.10.egg-info
+[0.852s] running install_scripts
+[0.869s] Installing led_control_server script to /home/jan/dev/ros2_home_auto/install/led_control/lib/led_control
+[0.870s] writing list of installed files to '/home/jan/dev/ros2_home_auto/build/led_control/install.log'
+[0.887s] Invoked command in '/home/jan/dev/ros2_home_auto/src/led_control' returned '0': PYTHONPATH=/home/jan/dev/ros2_home_auto/build/led_control/prefix_override:/home/jan/dev/ros2_home_auto/install/led_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/led_control build --build-base /home/jan/dev/ros2_home_auto/build/led_control/build install --record /home/jan/dev/ros2_home_auto/build/led_control/install.log --single-version-externally-managed
