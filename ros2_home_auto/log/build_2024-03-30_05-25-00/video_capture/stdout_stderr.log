@@ -1,0 +1,20 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing video_capture.egg-info/PKG-INFO
+writing dependency_links to video_capture.egg-info/dependency_links.txt
+writing entry points to video_capture.egg-info/entry_points.txt
+writing requirements to video_capture.egg-info/requires.txt
+writing top-level names to video_capture.egg-info/top_level.txt
+reading manifest file 'video_capture.egg-info/SOURCES.txt'
+writing manifest file 'video_capture.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/video_capture/lib/python3.10/site-packages/video-capture.egg-link (link to .)
+Installing video_publisher script to /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/video_capture/lib/video_capture
+Installing video_subscriber script to /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/video_capture/lib/video_capture
+
+Installed /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/video_capture
+running install_data

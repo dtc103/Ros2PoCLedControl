@@ -1,0 +1,6 @@
+[0.186s] Invoking command in '/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/custom_interfaces -- -j12 -l12
+[0.251s] [0mCMake Error: The current CMakeCache.txt directory /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/custom_interfaces/CMakeCache.txt is different than the directory /home/jan/dev/ros2_home_auto/build/custom_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.323s] [0mCMake Error: The source directory "/home/jan/dev/ros2_home_auto/src/custom_interfaces" does not exist.
+[0.323s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.324s] gmake: *** [Makefile:1395: cmake_check_build_system] Error 1
+[0.606s] Invoked command in '/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/custom_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/custom_interfaces -- -j12 -l12

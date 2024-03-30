@@ -1,0 +1,47 @@
+[0.305s] Invoking command in '/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/cpp_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/video_capture:/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/led_control:/opt/ros/humble /usr/bin/cmake --build /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/cpp_nodes -- -j12 -l12
+[0.710s] [35m[1mConsolidate compiler generated dependencies of target cpp_subscriber[0m
+[0.711s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_subscriber.dir/src/cpp_subscriber.cpp.o[0m
+[2.698s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.698s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.699s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.699s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.699s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.699s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.699s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.699s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.699s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.699s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.699s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.700s]                  from [01m[K/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/src/cpp_nodes/src/cpp_subscriber.cpp:5[m[K:
+[2.700s] [01m[K/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/src/cpp_nodes/src/cpp_subscriber.cpp:[m[K In member function ‘[01m[Kvoid VideoSubscriber::subscriptor_callback(const Image&) const[m[K’:
+[2.700s] [01m[K/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/src/cpp_nodes/src/cpp_subscriber.cpp:18:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst _data_type[m[K’ {aka ‘[01m[Kconst std::vector<unsigned char, std::allocator<unsigned char> >[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.700s]    18 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"received message '%s'"[m[K, msg.data);
+[2.700s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.700s] [01m[K/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/src/cpp_nodes/src/cpp_subscriber.cpp:18:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.700s]    18 |             RCLCPP_INFO(this->get_logger(), "received message '[01;36m[K%s[m[K'", msg.data);
+[2.700s]       |                                                                [01;36m[K~^[m[K
+[2.701s]       |                                                                 [01;36m[K|[m[K
+[2.701s]       |                                                                 [01;36m[Kchar*[m[K
+[7.873s] [100%] [32m[1mLinking CXX executable cpp_subscriber[0m
+[8.210s] [100%] Built target cpp_subscriber
+[8.221s] Invoked command in '/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/cpp_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/video_capture:/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/led_control:/opt/ros/humble /usr/bin/cmake --build /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/cpp_nodes -- -j12 -l12
+[8.245s] Invoking command in '/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/cpp_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/video_capture:/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/led_control:/opt/ros/humble /usr/bin/cmake --install /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/cpp_nodes
+[8.253s] -- Install configuration: ""
+[8.253s] -- Installing: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/lib/cpp_nodes/cpp_subscriber
+[8.257s] -- Set runtime path of "/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/lib/cpp_nodes/cpp_subscriber" to ""
+[8.257s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/ament_index/resource_index/package_run_dependencies/cpp_nodes
+[8.257s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/ament_index/resource_index/parent_prefix_path/cpp_nodes
+[8.257s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/environment/ament_prefix_path.sh
+[8.257s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/environment/ament_prefix_path.dsv
+[8.257s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/environment/path.sh
+[8.258s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/environment/path.dsv
+[8.258s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/local_setup.bash
+[8.258s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/local_setup.sh
+[8.258s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/local_setup.zsh
+[8.258s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/local_setup.dsv
+[8.258s] -- Installing: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/package.dsv
+[8.258s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/ament_index/resource_index/packages/cpp_nodes
+[8.258s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/cmake/cpp_nodesConfig.cmake
+[8.258s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/cmake/cpp_nodesConfig-version.cmake
+[8.258s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/package.xml
+[8.259s] Invoked command in '/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/cpp_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/video_capture:/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/led_control:/opt/ros/humble /usr/bin/cmake --install /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/cpp_nodes

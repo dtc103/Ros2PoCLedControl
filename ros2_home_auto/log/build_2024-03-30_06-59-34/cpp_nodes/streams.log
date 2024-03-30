@@ -1,0 +1,28 @@
+[0.314s] Invoking command in '/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/cpp_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/video_capture:/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/led_control:/opt/ros/humble /usr/bin/cmake --build /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/cpp_nodes -- -j12 -l12
+[0.693s] [35m[1mConsolidate compiler generated dependencies of target cpp_publisher[0m
+[0.693s] [ 50%] Built target cpp_subscriber
+[0.694s] [ 75%] [32mBuilding CXX object CMakeFiles/cpp_publisher.dir/src/cpp_publisher.cpp.o[0m
+[5.572s] [100%] [32m[1mLinking CXX executable cpp_publisher[0m
+[6.068s] [100%] Built target cpp_publisher
+[6.080s] Invoked command in '/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/cpp_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/video_capture:/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/led_control:/opt/ros/humble /usr/bin/cmake --build /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/cpp_nodes -- -j12 -l12
+[6.108s] Invoking command in '/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/cpp_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/video_capture:/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/led_control:/opt/ros/humble /usr/bin/cmake --install /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/cpp_nodes
+[6.117s] -- Install configuration: ""
+[6.117s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/lib/cpp_nodes/cpp_subscriber
+[6.118s] -- Installing: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/lib/cpp_nodes/cpp_publisher
+[6.119s] -- Set runtime path of "/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/lib/cpp_nodes/cpp_publisher" to ""
+[6.119s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/ament_index/resource_index/package_run_dependencies/cpp_nodes
+[6.120s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/ament_index/resource_index/parent_prefix_path/cpp_nodes
+[6.120s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/environment/ament_prefix_path.sh
+[6.120s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/environment/ament_prefix_path.dsv
+[6.120s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/environment/path.sh
+[6.120s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/environment/path.dsv
+[6.120s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/local_setup.bash
+[6.120s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/local_setup.sh
+[6.121s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/local_setup.zsh
+[6.121s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/local_setup.dsv
+[6.121s] -- Installing: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/package.dsv
+[6.121s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/ament_index/resource_index/packages/cpp_nodes
+[6.121s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/cmake/cpp_nodesConfig.cmake
+[6.121s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/cmake/cpp_nodesConfig-version.cmake
+[6.121s] -- Up-to-date: /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/cpp_nodes/share/cpp_nodes/package.xml
+[6.123s] Invoked command in '/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/cpp_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/video_capture:/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/led_control:/opt/ros/humble /usr/bin/cmake --install /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/cpp_nodes

@@ -1,0 +1,34 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:37[m[K,
+                 from [01m[K/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/src/cpp_nodes/src/cpp_subscriber.cpp:5[m[K:
+[01m[K/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/src/cpp_nodes/src/cpp_subscriber.cpp:[m[K In member function ‘[01m[Kvoid VideoSubscriber::subscriptor_callback(const Image&) const[m[K’:
+[01m[K/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/src/cpp_nodes/src/cpp_subscriber.cpp:21:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst _data_type[m[K’ {aka ‘[01m[Kconst std::vector<unsigned char, std::allocator<unsigned char> >[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   21 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"received message '%s'"[m[K, msg.data);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/src/cpp_nodes/src/cpp_subscriber.cpp:21:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   21 |             RCLCPP_INFO(this->get_logger(), "received message '[01;36m[K%s[m[K'", msg.data);
+      |                                                                [01;36m[K~^[m[K
+      |                                                                 [01;36m[K|[m[K
+      |                                                                 [01;36m[Kchar*[m[K
+[01m[K/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/src/cpp_nodes/src/cpp_subscriber.cpp:23:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KtoCvShare(const Image&, const char [5])[m[K’
+   23 |             cv::imshow("frame", [01;31m[Kcv_bridge::toCvShare(msg, "bgr8")[m[K->image);
+      |                                 [01;31m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/src/cpp_nodes/src/cpp_subscriber.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:232:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImageConstPtr cv_bridge::toCvShare(const ConstSharedPtr&, const string&)[m[K’
+  232 | CV_BRIDGE_EXPORT CvImageConstPtr [01;36m[KtoCvShare[m[K(
+      |                                  [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:233:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst Image[m[K’ {aka ‘[01m[Kconst sensor_msgs::msg::Image_<std::allocator<void> >[m[K’} to ‘[01m[Kconst ConstSharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&[m[K’}
+  233 |   [01;36m[Kconst sensor_msgs::msg::Image::ConstSharedPtr & source[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:260:34:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kcv_bridge::CvImageConstPtr cv_bridge::toCvShare(const Image&, const std::shared_ptr<const void>&, const string&)[m[K’
+  260 | CV_BRIDGE_EXPORT CvImageConstPtr [01;36m[KtoCvShare[m[K(
+      |                                  [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:155:41:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst char [5][m[K’ to ‘[01m[Kconst std::shared_ptr<const void>&[m[K’
+  155 |     [01;36m[Kconst std::shared_ptr<void const> & tracked_object[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cpp_subscriber.dir/build.make:76: CMakeFiles/cpp_subscriber.dir/src/cpp_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

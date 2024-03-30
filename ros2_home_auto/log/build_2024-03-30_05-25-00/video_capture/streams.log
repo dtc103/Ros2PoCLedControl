@@ -1,0 +1,22 @@
+[1.050s] Invoking command in '/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/video_capture': PYTHONPATH=/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/video_capture/prefix_override:/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/video_capture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/video_capture/build --no-deps install_data
+[1.295s] running develop
+[1.299s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.299s]   warnings.warn(
+[1.300s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.300s]   warnings.warn(
+[1.478s] running egg_info
+[1.478s] writing video_capture.egg-info/PKG-INFO
+[1.479s] writing dependency_links to video_capture.egg-info/dependency_links.txt
+[1.479s] writing entry points to video_capture.egg-info/entry_points.txt
+[1.479s] writing requirements to video_capture.egg-info/requires.txt
+[1.479s] writing top-level names to video_capture.egg-info/top_level.txt
+[1.481s] reading manifest file 'video_capture.egg-info/SOURCES.txt'
+[1.482s] writing manifest file 'video_capture.egg-info/SOURCES.txt'
+[1.483s] running build_ext
+[1.483s] Creating /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/video_capture/lib/python3.10/site-packages/video-capture.egg-link (link to .)
+[1.484s] Installing video_publisher script to /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/video_capture/lib/video_capture
+[1.484s] Installing video_subscriber script to /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/video_capture/lib/video_capture
+[1.484s] 
+[1.484s] Installed /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/video_capture
+[1.484s] running install_data
+[1.510s] Invoked command in '/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/video_capture' returned '0': PYTHONPATH=/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/video_capture/prefix_override:/home/jan/dev/Ros2PoCLedControl/ros2_home_auto/install/video_capture/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jan/dev/Ros2PoCLedControl/ros2_home_auto/build/video_capture/build --no-deps install_data
